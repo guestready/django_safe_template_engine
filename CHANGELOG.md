@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Add official support for Django 5.1
+- Add support for Django 5.1's `query_string` template tag
+
 ## 1.3.2 - 2024-06-05
 
 - Update dependencies to make it clear that version 1.3 is not compatible with Django 5.1
@@ -15,7 +20,7 @@
 - Add official support for Django 3.0 to 5.0 with:
     - Addition of automated test coverage
     - Review of all the built-in template tags and filters
-- Add support for Django 5's `escapeseq` filter
+- Add support for Django 5's `escapeseq` template filter
 - Use [tox](https://tox.wiki/) to manage test suite environment
 
 ## 1.2.0 - 2024-04-18
